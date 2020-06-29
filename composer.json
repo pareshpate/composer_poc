@@ -7,18 +7,5 @@
             "name": "Paresh Patel",
             "email": "pareshpate@cybage.com"
         }
-    ],
-    "require": {
-        "oomphinc/composer-installers-extender": "1.1.2"
-    },
-    "extra": {
-        "installer-paths": {
-            "installer-types": ["library"],
-            "web/modules/common/{$name}/": ["paresh/composer_poc"],
-            "web/modules/common/": ["type:sph"]
-        },
-        "installer-disable": [
-          "drupal"
-        ]
-    }
+    ]
 }

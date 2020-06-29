@@ -9,11 +9,12 @@
         }
     ],
     "require": {
-        "oomphinc/composer-installers-extender": "^1.1"
+        "oomphinc/composer-installers-extender": "1.1.2"
     },
     "extra": {
         "installer-paths": {
-            "web/modules/common/{$name}/": ["type:sph"]
+            "installer-types": ["library"],
+            "web/modules/common/{$name}/": ["paresh/composer_poc"]
         }
     }
 }

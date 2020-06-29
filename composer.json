@@ -1,20 +1,17 @@
 {
     "name": "paresh/composer_poc",
     "description": "POC to download the custom module in custom directory",
-    "type": "random-type",
+    "type": "paresh",
     "authors": [
         {
             "name": "Paresh Patel",
             "email": "pareshpate@cybage.com"
         }
     ],
-    "require": {
-        "davidbarratt/custom-installer": "1.0.*@dev",
-        "composer/installers": "^1.2"
+    "autoload": {
+        "psr-0": { "Composer\\Installers\\": "src/" }
     },
     "extra": {
-        "custom-installer": {
-            "custom/{$type}/{$vendor}/{$name}/": ["type:random-type"]
-        }
+        "class": "Composer\\Installers\\Installer"
     }
 }

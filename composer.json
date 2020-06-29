@@ -13,7 +13,6 @@
     },
     "extra": {
         "custom-installer": {
-          //"docroot/modules/common/{$name}": ["type:paresh-custom-module"]
           "web/modules/{$vendor}/{$name}/": ["type:random-type"]
         }
     }

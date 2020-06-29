@@ -1,21 +1,19 @@
 {
     "name": "paresh/composer_poc",
     "description": "POC to download the custom module in custom directory",
-    "type": "paresh",
+    "type": "sph",
     "authors": [
         {
             "name": "Paresh Patel",
             "email": "pareshpate@cybage.com"
         }
     ],
-    "autoload": {
-        "psr-0": { "Composer\\Installers\\": "src/" }
+    "require": {
+        "oomphinc/composer-installers-extender": "^1.1"
     },
     "extra": {
-        "class": "Composer\\Installers\\Installer",
-        "installer-disable": [
-          "drupal",
-          "all"
-        ]
+        "installer-paths": {
+            "web/modules/common/{$name}/": ["type:sph"]
+        }
     }
 }

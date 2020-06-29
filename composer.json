@@ -14,7 +14,11 @@
     "extra": {
         "installer-paths": {
             "installer-types": ["library"],
-            "web/modules/common/{$name}/": ["paresh/composer_poc"]
-        }
+            "web/modules/common/{$name}/": ["paresh/composer_poc"],
+            "web/modules/common/": ["type:sph"]
+        },
+        "installer-disable": [
+          "drupal",
+        ]
     }
 }

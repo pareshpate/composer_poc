@@ -13,7 +13,7 @@
     },
     "extra": {
         "custom-installer": {
-          "web/modules/{$vendor}/{$name}/": ["type:random-type"]
+            "web/modules/{$type}/{$vendor}/{$name}/": ["type:random-type"]
         }
     }
 }

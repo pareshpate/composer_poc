@@ -9,10 +9,10 @@
         }
     ],
     "require": {
-        "composer/installers": "^1.2"
+        "davidbarratt/custom-installer": "1.0.*@dev"
     },
     "extra": {
-        "installer-paths": {
+        "custom-installer": {
           "docroot/modules/common/{$name}": ["type:paresh-custom-module"]
         }
     }

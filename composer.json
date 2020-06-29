@@ -9,11 +9,12 @@
         }
     ],
     "require": {
-        "davidbarratt/custom-installer": "1.0.*@dev"
+        "davidbarratt/custom-installer": "1.0.*@dev",
+        "composer/installers": "^1.2"
     },
     "extra": {
         "custom-installer": {
-            "web/modules/{$type}/{$vendor}/{$name}/": ["type:random-type"]
+            "custom/{$type}/{$vendor}/{$name}/": ["type:random-type"]
         }
     }
 }

@@ -1,0 +1,17 @@
+{
+    "name": "paresh/composer_poc",
+    "description": "POC to download the custom module in custom directory",
+    "type": "drupal-custom-module",
+    "authors": [
+        {
+            "name": "Paresh Patel",
+            "email": "pareshpate@cybage.com"
+        }
+    ],
+    "require": {},
+    "extra": {
+        "installer-paths": {
+          "docroot/modules/common/{$name}": ["type:drupal-custom-module"]
+        }
+    }
+}

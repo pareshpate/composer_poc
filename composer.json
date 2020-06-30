@@ -1,5 +1,5 @@
 {
-    "name": "pareshpate/composer_poc",
+    "name": "paresh/composer_poc",
     "type": "pareshpate",
     "require": {
       "oomphinc/composer-installers-extender": "^1.1.2"

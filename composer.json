@@ -1,7 +1,7 @@
 {
-    "name": "sph/composer_poc",
+    "name": "drupal/composer_poc",
     "description": "POC to download the custom module in custom directory",
-    "type": "sph",
+    "type": "drupal-sph",
     "authors": [
         {
             "name": "Paresh Patel",

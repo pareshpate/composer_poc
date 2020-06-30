@@ -1,5 +1,5 @@
 {
-    "name": "paresh/composer_poc",
+    "name": "composer_poc",
     "description": "POC to download the custom module in custom directory",
     "type": "sph",
     "authors": [

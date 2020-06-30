@@ -9,7 +9,7 @@
       "installer-paths": {
         "web/modules/common/{$name}": ["type:drupal-sph"]
       },
-      "installer-types": ["drupal-sph"],
+      "installer-types": ["drupal-sph"]
     },
     "authors": [
         {

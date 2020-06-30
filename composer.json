@@ -1,11 +1,7 @@
 {
-    "name": "composer_poc",
-    "description": "POC to download the custom module in custom directory",
-    "type": "sph",
-    "authors": [
-        {
-            "name": "Paresh Patel",
-            "email": "pareshpate@cybage.com"
-        }
-    ]
+    "name": "pareshpate/composer_poc",
+    "type": "pareshpate",
+    "require": {
+      "oomphinc/composer-installers-extender": "^1.1.2"
+    }
 }

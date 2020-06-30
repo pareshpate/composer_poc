@@ -2,15 +2,6 @@
     "name": "sph/composer_poc",
     "description": "POC to download the custom module in custom directory",
     "type": "drupal-sph",
-    "require": {
-      "oomphinc/composer-installers-extender": "^1.1"
-    },
-    "extra": {
-      "installer-paths": {
-        "web/modules/common/{$name}": ["type:drupal-sph"]
-      },
-      "installer-types": ["drupal-sph"]
-    },
     "authors": [
         {
             "name": "Paresh Patel",
